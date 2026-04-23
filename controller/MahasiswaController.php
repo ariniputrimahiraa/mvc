@@ -1,5 +1,5 @@
 <?php
-require_once "model/Mahasiwa.php";
+require_once "model/mahasiswa.php";
 class MahasiswaController {
     public function index() {
         $model = new Mahasiswa();
